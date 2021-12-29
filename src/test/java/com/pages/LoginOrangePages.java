@@ -19,6 +19,7 @@ public class LoginOrangePages extends PageObject {
     public void verifyLogin(String username,String password){
       find(By.id("txtUsername")).sendKeys(username);
       find(By.id("txtPassword")).sendKeys(password);
+
       waitBit();
     }
 
